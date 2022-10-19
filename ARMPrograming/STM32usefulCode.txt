@@ -1,0 +1,11 @@
+SET GPIOs IN THE STM32 MCU
+______________________________________________________________________________
+
+HAL_GPIO_WritePin(GPIO_Port, GPIO_Pin, GPIO_PinState)
+
+GPIO_Port = GPIOA, GPIOB, GPIOC (Port A, B, C, respectively)
+GPIO_Pin = GPIO_PIN_13, GPIO_PIN_5 (Pin 13 and 5)
+GPIO_PinState = GPIO_PIN_RESET and GPIO_PIN_SET (0 and 1 work too)
+______________________________________________________________________________
+
+HAL_GPIO_ReadPin(GPIO_Port, GPIO_Pin)
